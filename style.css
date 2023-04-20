@@ -1,0 +1,53 @@
+/* general styles */
+
+*{
+    box-sizing: border-box;
+    /* Primary colors*/
+    --clr-prm-red : hsl(356, 100%, 66%);
+    --clr-prm-light-red: hsl(355, 100%, 74%); 
+    --clr-prm-dark-blue: hsl(208, 49%, 24%);
+
+    /* neutral colors */
+    --clr-neutral-white : hsl(0, 0%, 100%);
+    --clr--neutral-gray-blue: hsl(240, 2%, 79%);
+    --clr--neutral-dark-blue: hsl(207, 13%, 34%);
+    --clr-neutral-dark-black-blue: hsl(240, 10%, 16%);
+
+    /* gradient colors*/
+    --clr-gradient-v-light-red: hsl(13, 100%, 72%);
+    --clr-gradient-light-red: hsl(353, 100%, 62%);
+
+    --clr-gradient-dark-blue: hsl(237, 17%, 21%);
+    --clr-gradient-dark-s-blue: hsl(237, 23%, 32%);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* ############################ */
+  /* ####################### */
+      /* layout */
+  /* ###################### */
+/*#############################  */
+
+/* header layout */
+
+
+header{
+
+}
+

@@ -19,7 +19,7 @@
 
     --clr-gradient-dark-blue: hsl(237, 17%, 21%);
     --clr-gradient-dark-s-blue: hsl(237, 23%, 32%);
-
+    text-align: center;
 }
 
 body{
@@ -38,7 +38,7 @@ img{
 }
 
 .container{
-    padding: 1em;
+    padding: 2em;
 }
 
 
@@ -53,6 +53,7 @@ img{
 
 header{
     color: white;
+    display: none;
 }
 
 header .container{
@@ -85,6 +86,80 @@ header nav ul{
     right: 0;
 }
 
-body{
-    background-color: black;
+/* intro layout */
+
+.intro-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: url(./images/bg-pattern-intro-mobile.svg) no-repeat ; */
+    /* background-size: inherit; */
+    background-color: green;
+    /* background-blend-mode: multiply; */
+    padding: 10em 0;
+    border-bottom-left-radius: 100px;
+    /* text-align: center; */
+
+}
+.intro-section h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.intro-section p{
+    font-size: 25px;
+}
+
+
+.intro-section ul {
+    display: flex;
+    gap: 20px
+}
+
+.intro-section ul li{
+    padding: .9em 1em;
+    border: 1px solid var(--clr-neutral-white);
+    border-radius: 50px;
+}
+
+/* design-section layout */
+
+.design-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-section .container h1{
+    font-size: 30px;
+}
+
+.design-section .container p{
+    font-size: 20px;
+}
+
+
+/* state-section layout */
+
+.state-section .container{
+    background-color: green;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: relative;
+}
+
+.state-section .container img{
+    position: absolute;
+    left: 0;
+    top: -100px
+}
+.state-section .container h1{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.state-section .container p{
+    font-size: 22px;
+    line-height: 1.5em;
 }

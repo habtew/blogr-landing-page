@@ -88,6 +88,7 @@ header nav ul{
 
 /* intro layout */
 
+
 .intro-section .container{
     display: flex;
     flex-direction: column;
@@ -100,6 +101,7 @@ header nav ul{
     padding: 10em 0;
     border-bottom-left-radius: 100px;
     /* text-align: center; */
+    /* margin-bottom: 200px; */
 
 }
 .intro-section h1{
@@ -129,6 +131,7 @@ header nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .design-section .container h1{
@@ -147,12 +150,13 @@ header nav ul{
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     position: relative;
+    padding: 10em 0 5em;
 }
 
 .state-section .container img{
     position: absolute;
     left: 0;
-    top: -100px
+    top: -200px
 }
 .state-section .container h1{
     font-size: 30px;
@@ -162,4 +166,44 @@ header nav ul{
 .state-section .container p{
     font-size: 22px;
     line-height: 1.5em;
+}
+
+
+/* about-section */
+
+.about-section .about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section .about-container h1{
+    font-size: 30px;
+}
+
+.about-section .about-container p{
+    font-size: 20px;
+}
+
+
+
+/* foooter section */
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    border-top-right-radius: 100px;;
+}
+footer .container li{
+    margin-block: px;
+}
+
+footer .container .f-title{
+    font-size: 20px;
+    margin-bottom: 23px;
 }

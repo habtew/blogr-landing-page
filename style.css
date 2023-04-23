@@ -251,6 +251,8 @@ footer .container .f-title{
 
     .design-section .design-container img{
         order: 1;
+        max-width: 600px;
+        width: 100%;
     }
 
     .state-section .container{
@@ -279,6 +281,7 @@ footer .container .f-title{
         flex-direction: row;
         align-items: left;
     }
+
     
     
 
@@ -288,6 +291,19 @@ footer .container .f-title{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    footer .container ul{
+        align-items: flex-start;
+        justify-content: center;
+        background: green;
+        padding: 1em 0;
+        margin: 1em 0;
+    }
+
+    footer .container ul .f-title{
+        padding-top: 0;
+        margin-top: 0;
     }
 
 }

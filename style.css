@@ -152,14 +152,21 @@ header nav ul{
     position: relative;
     padding: 10em 0 5em;
 }
-.state-container .container .img-container{
+
+/* .state-container .container .img-container{
     position: relative;
-}
+} */
 
 .state-section .container img{
     position: absolute;
     left: 0;
-    top: -200px;
+    top: -250px;
+}
+
+.state-section .container .state-container{
+    position: relative;
+    top: 60px;
+    padding: 3em
 }
 .state-section .container h1{
     font-size: 30px;
@@ -220,7 +227,7 @@ footer .container .f-title{
 
 @media (min-width: 500px){
     .container{
-        max-width: 450px;
+        max-width: 550px;
         margin: 0 auto;
     }
 }
@@ -263,6 +270,7 @@ footer .container .f-title{
     .state-section .container .state-container{
         width: 50%;
         padding: 0;
+        position: unset;
     }
 
     /* about-section */

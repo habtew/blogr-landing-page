@@ -19,7 +19,7 @@
 
     --clr-gradient-dark-blue: hsl(237, 17%, 21%);
     --clr-gradient-dark-s-blue: hsl(237, 23%, 32%);
-    text-align: center;
+    /* text-align: center; */
 }
 
 body{
@@ -152,11 +152,14 @@ header nav ul{
     position: relative;
     padding: 10em 0 5em;
 }
+.state-container .container .img-container{
+    position: relative;
+}
 
 .state-section .container img{
     position: absolute;
     left: 0;
-    top: -200px
+    top: -200px;
 }
 .state-section .container h1{
     font-size: 30px;
@@ -206,4 +209,77 @@ footer .container li{
 footer .container .f-title{
     font-size: 20px;
     margin-bottom: 23px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 500px){
+    .container{
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (min-width: 900px){
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .design-section .design-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    .design-container-elements{
+        width: 50%;
+    }
+
+    .design-section .design-container img{
+        order: 1;
+    }
+
+    .state-section .container{
+        display: flex;
+        padding: 110px;
+    }
+    .state-section .container .img-container{
+        display: block;
+        width: 50%;
+        margin-right: 40px;
+    }
+
+    .state-section .container img{
+        top: -70px;
+    }   
+
+    .state-section .container .state-container{
+        width: 50%;
+        padding: 0;
+    }
+
+    /* about-section */
+
+    .about-section .about-container{
+        flex-direction: row;
+        align-items: left;
+    }
+    
+    
+
+    /* footer section*/
+    
+    footer .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
 }

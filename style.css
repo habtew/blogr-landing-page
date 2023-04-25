@@ -41,7 +41,9 @@ img{
     padding: 2em;
 }
 
-
+section{
+    border: 1px solid black
+}
 /* ############################ */
   /* ####################### */
       /* layout */
@@ -149,10 +151,12 @@ header nav ul{
     background-color: green;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
-    position: relative;
+    /* position: relative; */
     /* padding: 10em 0 5em; */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* height: 200px; */
 }
 
 /* .state-container .container .img-container{
@@ -161,13 +165,14 @@ header nav ul{
 
 .state-section .container img{
     /* position: absolute; */
-    margin-top: -250px
+    margin-top: -170px;
+    padding: 0;
 }
 
 .state-section .container .state-container{
-    position: relative;
+    /* position: relative; */
     /* top: 60px; */
-    padding: 3em
+    /* padding: 3em */
 }
 .state-section .container h1{
     font-size: 30px;
@@ -175,7 +180,7 @@ header nav ul{
 }
 
 .state-section .container p{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5em;
 }
 
@@ -258,23 +263,19 @@ footer .container .f-title{
 
     .state-section .container{
         display: flex;
-        padding: 110px;
+        flex-direction: row;
+
+        /* padding: 110px; */
+        padding: 0
     }
-    .state-section .container .img-container{
-        display: block;
-        width: 50%;
-        margin-right: 40px;
-    }
+    /* .state-sections */
 
     .state-section .container img{
         top: -70px;
+        margin-top: -100px;
     }   
 
-    .state-section .container .state-container{
-        width: 50%;
-        padding: 0;
-        position: unset;
-    }
+
 
     /* about-section */
 

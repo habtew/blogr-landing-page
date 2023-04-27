@@ -41,9 +41,6 @@ img{
     padding: 2em;
 }
 
-section{
-    border: 1px solid black
-}
 /* ############################ */
   /* ####################### */
       /* layout */
@@ -53,20 +50,13 @@ section{
 /* header layout */
 
 
-header{
-    color: white;
-    display: none;
-}
-
-header .container{
+/* header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-}
+} */
 
-header nav{
-    /* display: none; */
+/* header nav{
     display: flex;
     background:hsl(0, 0%, 100%);
     color: black;
@@ -76,9 +66,9 @@ header nav{
     align-items: center;
     flex-direction: column;
 
-}
+} */
 
-header nav ul{
+/* header nav ul{
     display: flex;
     flex-direction: column;
 }
@@ -86,10 +76,12 @@ header nav ul{
 .humberger{
     position: absolute;
     right: 0;
-}
+} */
 
 /* intro layout */
-
+.intro-section{
+    border-bottom-left-radius: 100px;
+}
 
 .intro-section .container{
     display: flex;
@@ -98,7 +90,6 @@ header nav ul{
     justify-content: space-evenly;
     /* background: url(./images/bg-pattern-intro-mobile.svg) no-repeat ; */
     /* background-size: inherit; */
-    background-color: green;
     /* background-blend-mode: multiply; */
     padding: 10em 0;
     border-bottom-left-radius: 100px;
@@ -146,9 +137,12 @@ header nav ul{
 
 
 /* state-section layout */
+.state-section{
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
 
 .state-section .container{
-    background-color: green;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     /* position: relative; */
@@ -204,24 +198,43 @@ header nav ul{
 
 
 /* foooter section */
+footer{
+    border-top-right-radius: 100px;;    
+}
 
 footer .container{
     display: flex;
     flex-direction: column;
-    background: black;
-    color: white;
     align-items: center;
     gap: 25px;
     font-size: 18px;
     border-top-right-radius: 100px;;
 }
 footer .container li{
-    margin-block: px;
+    margin-block: 10px;
 }
 
 footer .container .f-title{
     font-size: 20px;
     margin-bottom: 23px;
+}
+
+/* ################## */
+/* typography */
+header, .intro-section{
+    background-color: var(--clr-prm-red);
+    color: white;
+    opacity: .9;
+}
+
+.state-section{
+    background-color: var(--clr-gradient-dark-blue);
+    color: white;
+}
+
+footer{
+    background-color: var(--clr-neutral-dark-black-blue);
+    color: var(--clr-neutral-white)
 }
 
 
@@ -245,6 +258,48 @@ footer .container .f-title{
         max-width: 1400px;
         margin: 0 auto;
     }
+    /* header*/
+    header .container{
+        display: flex;
+        align-items: center;
+        background: green;
+    }
+    
+    header nav{
+        display: flex;
+        /* margin-right: 20px; */
+        justify-content: space-around;
+        background: yellow;
+        width: 100%;
+    
+    }
+    header nav li{
+        margin-right: 30px;
+    }
+    header nav .blogr-nav{
+        display: flex;
+        background: orange;
+        margin-left: 20px;
+    }
+
+    header nav .blogr-contact-form{
+        display: flex;
+        margin-left: auto;
+        background-color: violet;
+    }
+
+    header nav .blogr-contact-form li{
+        padding: 1em;
+        border-radius: 20px;
+        border: 1px solid white
+    }
+    
+    .humberger{
+        display: none;
+    }
+
+
+
     .design-section .design-container{
         display: flex;
         flex-direction: row;
@@ -301,9 +356,13 @@ footer .container .f-title{
     footer .container ul{
         align-items: flex-start;
         justify-content: center;
-        background: green;
         padding: 1em 0;
         margin: 1em 0;
+    }
+
+    footer .container li{
+        margin: 0;
+        padding: 0;
     }
 
     footer .container ul .f-title{

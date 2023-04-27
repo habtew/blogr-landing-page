@@ -262,15 +262,14 @@ footer{
     header .container{
         display: flex;
         align-items: center;
-        background: green;
     }
     
     header nav{
         display: flex;
         /* margin-right: 20px; */
         justify-content: space-around;
-        background: yellow;
         width: 100%;
+        align-items: center;
     
     }
     header nav li{
@@ -278,18 +277,16 @@ footer{
     }
     header nav .blogr-nav{
         display: flex;
-        background: orange;
         margin-left: 20px;
     }
 
     header nav .blogr-contact-form{
         display: flex;
         margin-left: auto;
-        background-color: violet;
     }
 
     header nav .blogr-contact-form li{
-        padding: 1em;
+        padding: .7em 1.3em;
         border-radius: 20px;
         border: 1px solid white
     }

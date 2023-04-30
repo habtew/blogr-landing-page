@@ -523,6 +523,7 @@ footer{
 
 /* hambergur setting */
 
-.nav{
+.none,
+.nonee{
     display: none;
 }

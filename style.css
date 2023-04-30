@@ -50,7 +50,7 @@ img{
 
     /* header*/
 
-    header {
+    header{
         /* display: flex;
         align-items: center;
         flex-direction: column; */
@@ -59,9 +59,9 @@ img{
         background-repeat:no-repeat; 
         background-position: center center;
         /* background-size:cover; */
-        background-blend-mode: inherit;
+        background-blend-mode:lighten;
         border-bottom-left-radius: 100px;
-        
+        background-size: cover;
         
     }
 
@@ -317,6 +317,7 @@ footer{
         max-width: 550px;
         margin: 0 auto;
     }
+    
 }
 
 
@@ -328,9 +329,14 @@ footer{
         text-align: left;
     }
     /* header*/
+    header{
+        background-image: url('./images/bg-pattern-intro-desktop.svg');
+        /* background-size: cover; */
+    }
+
     header .container{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
     }
     header .container .mobile-humb-cont{
@@ -345,12 +351,18 @@ footer{
         /* margin-right: 20px; */
         justify-content: space-around;
         width: 100%;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
         color: white;
-        background: transparent
-    
+        background-color: inherit;
+        margin-top: 0;
+        margin-left: 20px;
     }
+
+    header nav h3{
+        margin-top: 0;
+    }
+
     header nav li{
         margin-right: 30px;
     }

@@ -418,8 +418,8 @@ footer{
     
     .design-section .design-container img{
         order: 1;
-        max-width: 600px;
-        width: 40%;
+        /* max-width: 600px; */
+        width: 45%;
         margin-left: 20px;
 
     }
@@ -505,4 +505,24 @@ footer{
         margin-top: 0;
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hambergur setting */
+
+.nav{
+    display: none;
 }

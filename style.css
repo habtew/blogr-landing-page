@@ -120,6 +120,14 @@ img{
         margin-left: auto;
     }
 
+    /* hambergur setting */
+
+    .none,
+    .none-nav{
+        display: none;
+    }
+
+
 /* intro layout */
 
 .intro-section{
@@ -505,6 +513,10 @@ footer{
         margin-top: 0;
     }
 
+    .none-nav{
+        display: flex;
+    }
+
 }
 
 
@@ -521,9 +533,3 @@ footer{
 
 
 
-/* hambergur setting */
-
-.none,
-.nonee{
-    display: none;
-}

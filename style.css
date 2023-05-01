@@ -169,7 +169,7 @@ img{
 
 /* design-section layout */
 
-.design-section {
+.design-section .container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,10 +331,6 @@ footer{
         max-width: 550px;
         margin: 0 auto;
     }
-    .design-section{
-        max-width: 550px;
-        margin: 0 auto 200px;
-    }
     
 }
 
@@ -408,11 +404,9 @@ footer{
 
 
     /*design section  */
-    .design-section{
-        padding: 2em 0em 2em 2em;
+    .design-section .container{
+        /* padding: 2em 0em 2em 2em; */
         align-items: center;
-        max-width: 1650px;
-        margin: 0 0 0 auto;
     }
 
     .design-section .design-container{

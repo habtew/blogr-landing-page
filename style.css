@@ -112,7 +112,8 @@ img{
     header nav .blogr-contact-form li{
         padding: .7em 1.3em;
         border-radius: 20px;
-        border: 1px solid white
+        border: none
+
     }
     
     .humberger{

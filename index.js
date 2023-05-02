@@ -34,3 +34,5 @@ connect.addEventListener('click', ()=>{
     productItem.classList.add('none')
     // console.log(productItem)
 })
+
+console.log('hello world')

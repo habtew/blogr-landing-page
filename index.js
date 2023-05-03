@@ -35,4 +35,17 @@ connect.addEventListener('click', ()=>{
     // console.log(productItem)
 })
 
-console.log('hello world')
+
+
+const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+function handleResize(e) {
+  if (e.matches) {
+    console.log("Window width is at least 768px");
+  } else {
+    console.log("Window width is less than 768px");
+  }
+}
+
+mediaQuery.addEventListener('change',handleResize); // add listener
+handleResize(mediaQuery); // call once at start to set initial state

@@ -10,6 +10,11 @@ const connectItem = document.querySelector('.nav-item-connect')
 const company = document.querySelector('.company')
 const companyItem = document.querySelector('.nav-item-company')
 
+const designIcon = document.querySelector('.design-icon')
+const aboutIcon  = document.querySelector('.about-icon')
+
+
+
 humberger.addEventListener('click', ()=>{
     nav.classList.toggle('none-nav')
 })
@@ -37,15 +42,17 @@ connect.addEventListener('click', ()=>{
 
 
 
-const mediaQuery = window.matchMedia("(min-width: 768px)");
+const mediaQuery = window.matchMedia("(min-width: 900px)");
 
 function handleResize(e) {
   if (e.matches) {
-    console.log("Window width is at least 768px");
+    designIcon.src = '/images/illustration-editor-desktop.svg'
+    aboutIcon.src = './images/illustration-laptop-desktop.svg'
   } else {
-    console.log("Window width is less than 768px");
+    designIcon.src = '/images/illustration-editor-mobile.svg'
+    aboutIcon.src = './images/illustration-laptop-mobile.svg'
   }
 }
 
 mediaQuery.addEventListener('change',handleResize); // add listener
-handleResize(mediaQuery); // call once at start to set initial state
+handleResize(mediaQuery);

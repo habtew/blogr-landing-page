@@ -80,23 +80,23 @@ img{
     }
     
     header  nav{
-        display: flex;
-        /* margin-right: 20px; */
-        /* justify-content: space-around; */
         width: 80%;
-        align-items: center;
-        flex-direction: column;
         background: white;
         color: black;
         font-size: 1.2rem;
-        /* display: none; */
-        text-align: left;
         margin: 20px auto;
+        color: var(--clr--neutral-dark-blue);
+        padding: 1em
     }
-    header nav li{
-        margin-right: 30px;
-        margin-block: 5px;
+
+    header nav .nav-item{
+        padding: 1em;
     }
+
+    header nav .nav-item li{
+        margin-block:20px ;
+    }
+
     header nav .blogr-nav{
         display: flex;
         margin-left: 20px;
@@ -107,13 +107,27 @@ img{
         display: flex;
         margin-left: 0;
         flex-direction: column;
+        margin-bottom: 30px;
     }
 
-    header nav .blogr-contact-form li{
-        padding: .7em 1.3em;
-        border-radius: 20px;
-        border: none
+    header .btn{
+        padding: .6em 1.8em;
+        border-radius: 50px;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: fit-content;
+        align-self: center;
+        margin-block: 10px;
+    }
 
+    header .btn-login{
+        
+    }
+
+    header .btn-signup{
+        color: var(--clr-neutral-white);
+        background: linear-gradient(-90deg,var(--clr-gradient-light-red), var(--clr-gradient-v-light-red));
     }
     
     .humberger{
@@ -182,10 +196,6 @@ img{
 
 .design-section  h1{
     font-size: 30px;
-}
-.design-section .design-title{
-    /* text-align: right; */
-    order: 0;
 }
 
 .design-section p{
@@ -312,8 +322,13 @@ header, .intro-section{
     opacity: .9;
 }
 
+header nav .nav-item{
+    background: var(--clr--neutral-gray-blue);
+}
+
 .state-section{
-    background-color: var(--clr-gradient-dark-blue);
+    /* background: var(--clr-gradient-dark-blue); */
+    
     color: white;
 }
 
@@ -395,11 +410,11 @@ footer{
         flex-direction: row;
     }
 
-    header nav .blogr-contact-form li{
+    /* header nav .blogr-contact-form li{
         padding: .7em 1.3em;
         border-radius: 20px;
         border: 1px solid white
-    }
+    } */
     
     .humberger{
         display: none;

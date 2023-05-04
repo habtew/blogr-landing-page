@@ -327,8 +327,7 @@ header nav .nav-item{
 }
 
 .state-section{
-    /* background: var(--clr-gradient-dark-blue); */
-    
+    background: var(--clr-gradient-dark-blue);   
     color: white;
 }
 

@@ -33,6 +33,7 @@ ul {
     padding: 0;
 }
 
+
 img{
     max-width: 100%;
 }
@@ -77,16 +78,20 @@ img{
         align-items: center;
         /* background-color: green; */
         width: 100%;
+        /* position: relative; */
     }
     
     header  nav{
+        /* width: 400px; */
         width: 80%;
         background: white;
         color: black;
         font-size: 1.2rem;
         margin: 20px auto;
         color: var(--clr--neutral-dark-blue);
-        padding: 1em
+        padding: 1em;
+        
+        
     }
 
     header nav .nav-item{
@@ -107,18 +112,20 @@ img{
         display: flex;
         margin-left: 0;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin: 1.4em 0 0em;
+        padding: 1em 0 .5em;
+        border-top: 1px solid var(--clr--neutral-gray-blue)
     }
 
     header .btn{
         padding: .6em 1.8em;
         border-radius: 50px;
         border: none;
-        font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: bolder;
         width: fit-content;
         align-self: center;
         margin-block: 10px;
+        font-size: 1.5rem;
     }
 
     header .btn-login{
@@ -266,11 +273,15 @@ img{
 
 
 /* foooter section */
+footer{
+    border-top-right-radius: 100px;
+}
+
 footer .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
 }
 
 
@@ -282,10 +293,7 @@ footer .container .footer-item{
     flex-direction: column;
 }
 
-footer .container .footer-contact{
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* footer{
     border-top-right-radius: 100px;;    
@@ -365,6 +373,7 @@ footer{
         /* background-size: cover; */
     }
 
+
     header .container{
         display: flex;
         align-items: flex-start;
@@ -376,7 +385,10 @@ footer{
         align-items: center;
         /* background-color: green; */
         width: fit-content;
+    
     }
+
+
     header nav{
         display: flex;
         /* margin-right: 20px; */
@@ -386,13 +398,15 @@ footer{
         flex-direction: row;
         color: white;
         background-color: inherit;
-        margin-top: 0;
         margin-left: 20px;
+
     }
+
 
     header nav h3{
         margin-top: 0;
     }
+
 
     header nav li{
         margin-right: 30px;
@@ -407,6 +421,22 @@ footer{
         display: flex;
         margin-left: auto;
         flex-direction: row;
+        margin: 0em;
+        padding: 0em;
+        border-top: none;
+    }
+
+
+    header .btn{
+        margin-block: 0;
+        padding: 0em .6em;
+        /* border: 1px solid black; */
+        
+    }
+
+    header .btn-signup{
+        color: var(--clr-neutral-white);
+        background: none;
     }
 
     /* header nav .blogr-contact-form li{
@@ -545,4 +575,6 @@ footer{
 
 
 
-
+main{
+    display: none;
+}

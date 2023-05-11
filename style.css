@@ -238,29 +238,18 @@ header .btn-signup{
 .state-section .container{
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
-    /* position: relative; */
-    /* padding: 10em 0 5em; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 200px; */
 }
 
-/* .state-container .container .img-container{
-    position: relative;
-} */
 
 .state-section .container img{
-    /* position: absolute; */
     margin-top: -170px;
     padding: 0;
 }
 
-.state-section .container .state-container{
-    /* position: relative; */
-    /* top: 60px; */
-    /* padding: 3em */
-}
+
 .state-section .container h1{
     font-size: 30px;
     letter-spacing: 1.5px;
@@ -313,38 +302,12 @@ footer .container .footer-item{
 }
 
 
-
-/* footer{
-    border-top-right-radius: 100px;;    
-}
-
-footer .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    font-size: 18px;
-    border-top-right-radius: 100px;;
-}
-footer .container ul{
-    display: flex;
-    flex-direction: column;
-}
-footer .container li{
-    margin-block: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-footer .container .f-title{
-    font-size: 20px;
-    margin-bottom: 23px;
-} */
-
 /* ################## */
-/* typography */
+    /* typography */
+/*###################  */
+
+
 header, .intro-section{
-    /* background-color: var(--clr-prm-light-red); */
     color: white;
     opacity: .9;
 }
@@ -370,11 +333,6 @@ footer{
 
 
 
-
-
-
-
-
 @media (min-width: 500px){
     .container{
         max-width: 550px;
@@ -394,7 +352,6 @@ footer{
     /* header*/
     header{
         background-image: url('./images/bg-pattern-intro-desktop.svg');
-        /* background-size: cover; */
     }
 
 
@@ -407,7 +364,6 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* background-color: green; */
         width: fit-content;
     
     }
@@ -415,7 +371,6 @@ footer{
 
     header nav{
         display: flex;
-        /* margin-right: 20px; */
         justify-content: space-around;
         width: 100%;
         align-items: flex-start;
@@ -473,11 +428,6 @@ footer{
         color: var(--clr-gradient-v-light-red);
     }
 
-    /* header nav .blogr-contact-form li{
-        padding: .7em 1.3em;
-        border-radius: 20px;
-        border: 1px solid white
-    } */
     
     .humberger{
         display: none;
@@ -490,7 +440,6 @@ footer{
     }
     /*design section  */
     .design-section .container{
-        /* padding: 2em 0em 2em 2em; */
         align-items: center;
     }
 
@@ -499,7 +448,6 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 0;
-        /* align-items: center; */
 
     }
     

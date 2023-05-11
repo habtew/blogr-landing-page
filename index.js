@@ -29,7 +29,6 @@ company.addEventListener('click', ()=>{
     companyItem.classList.toggle('none')
     productItem.classList.add('none')
     connectItem.classList.add('none')
-    // console.log(productItem)
 })
 
 

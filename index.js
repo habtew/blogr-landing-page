@@ -45,10 +45,10 @@ const mediaQuery = window.matchMedia("(min-width: 900px)");
 
 function handleResize(e) {
   if (e.matches) {
-    designIcon.src = '/images/illustration-editor-desktop.svg'
+    designIcon.src = './images/illustration-editor-desktop.svg'
     aboutIcon.src = './images/illustration-laptop-desktop.svg'
   } else {
-    designIcon.src = '/images/illustration-editor-mobile.svg'
+    designIcon.src = './images/illustration-editor-mobile.svg'
     aboutIcon.src = './images/illustration-laptop-mobile.svg'
   }
 }

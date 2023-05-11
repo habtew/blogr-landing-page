@@ -33,11 +33,11 @@ company.addEventListener('click', ()=>{
 })
 
 
-connect.addEventListener('click', ()=>{
-    connectItem.classList.toggle('none')
+
+connect.addEventListener('click', ()=>{  
+  connectItem.classList.toggle('none')
     companyItem.classList.add('none')
     productItem.classList.add('none')
-    // console.log(productItem)
 })
 
 
